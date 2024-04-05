@@ -1,0 +1,3 @@
+target/
+collection-to-call-services/
+.mvn/wrapper
