@@ -31,4 +31,4 @@ Microservicio construido con Spring Boot 3 y Java 17
 
 3. No es necesario ejecutar algún script para la creación de modelos en la base de datos, ya que está activo el `ddl-auto:update` esto hace que se generen automáticamente las tablas en la base datos.
 
-4. Para acceder a la base de datos y revisar como están quedando los datos insertados se puede realizar un login en H2, para esto con el microservicio en ejecución ingresar a la siguiente url `http://localhost:3002/h2-ui` en la cual los datos para ingresar serán los siguientes, Driver Class: `org.h2.Driver` JDBC URL: `jdbc:h2:mem:users_example` User Name: `test` Password: `test`.
+4. Para acceder a la base de datos y revisar como están quedando los datos insertados, tiene que ejecutarse directamente el microservicio sin utilizar docker, ejecutando en local se puede realizar un login en H2, con el microservicio en ejecución ingresar a la siguiente url `http://localhost:3002/h2-ui` en la cual los datos para ingresar serán los siguientes, Driver Class: `org.h2.Driver` JDBC URL: `jdbc:h2:mem:users_example` User Name: `test` Password: `test`.
